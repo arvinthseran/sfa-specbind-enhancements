@@ -9,8 +9,8 @@
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <projectUrl>https://github.com/dpiessens/specbind</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description></description>
-    <summary></summary>
+    <description>Adding better support for browserstack and catching javascript errors on pages</description>
+    <summary>enhancements for specbind</summary>
     <tags>specflow acceptance testing specbind bdd cucumber</tags>
     <language>en-US</language>
     <dependencies>
