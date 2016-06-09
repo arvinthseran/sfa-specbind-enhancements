@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <specBind xdt:Transform="InsertIfMissing">
+    <!-- For additional details on SpecBind configuration options see the project site. -->
+    <browserFactory xdt:Transform="InsertIfMissing">
+		<settings xdt:Transform="InsertIfMissing">
+        <add name="browserstack.user" value="" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+        <add name="browserstack.key" value="" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+        <add name="browserstack.debug" value="true" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+        <add name="project" value="DAS.Search" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+        <add name="build" value="" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+      </settings>
+	</browserFactory>
+  </specBind>
+  <specFlow>
+    <stepAssemblies xdt:Transform="InsertIfMissing">
+      <stepAssembly assembly="Sfa.SpecBind.Enhancements" xdt:Locator="Match(assembly)" xdt:Transform="InsertIfMissing"/>
+    </stepAssemblies>
+  </specFlow>
+</configuration>

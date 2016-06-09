@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Sfa.SpecBind.Enchancements</id>
+    <version>$version$</version>
+    <title>SFA SpecBind Enchancements</title>
+    <authors>scottcowan</authors>
+    <owners>scottcowan</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/dpiessens/specbind</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description></description>
+    <summary></summary>
+    <tags>specflow acceptance testing specbind bdd cucumber</tags>
+    <language>en-US</language>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="SpecBind" version="1.7.2" />
+		<dependency id="Selenium.WebDriver" version="2.53.0" />
+        <dependency id="Polly" version="4.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Sfa.SpecBind.Enchancements.dll" target="lib\net45" />
+    <file src="bin\Release\Sfa.SpecBind.Enchancements.xml" target="lib\net45" />
+    <file src="Deployment\App.config.install.xdt" target="content" />
+    <file src="Deployment\App.config.uninstall.xdt" target="content" />
+  </files>
+</package>
