@@ -68,7 +68,6 @@ before_build:
 # scripts to run after build
 after_build:
   - mkdir %PACKAGE_DIR%
-  - ps: ls -recurse
   - nuget pack src\Sfa.SpecBind.Enhancements\Sfa.SpecBind.Enhancements.nuspec -OutputDirectory %PACKAGE_DIR% -BasePath src\Sfa.SpecBind.Enhancements -Verbosity Detailed -Version %APPVEYOR_BUILD_VERSION% -Symbols -Properties Configuration=Release
 
 
