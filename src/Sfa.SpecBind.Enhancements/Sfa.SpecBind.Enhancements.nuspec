@@ -25,5 +25,6 @@
     <file src="bin\Release\Sfa.SpecBind.Enhancements.dll" target="lib\net45" />
     <file src="bin\Release\Sfa.SpecBind.Enhancements.xml" target="lib\net45" />
     <file src="Deployment\*.*" target="content" />
+	<file src="..\..\scripts\Install.ps1" target="tools\Install.ps1" />
   </files>
 </package>
