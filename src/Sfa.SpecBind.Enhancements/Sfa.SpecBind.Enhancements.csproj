@@ -76,6 +76,24 @@
     <Compile Include="Steps\DataSteps.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Deployment\App.Android4.4.config" />
+    <None Include="Deployment\App.Android5.0.config" />
+    <None Include="Deployment\App.Edge.config" />
+    <None Include="Deployment\App.IE10.config" />
+    <None Include="Deployment\App.IE11.config" />
+    <None Include="Deployment\App.IE8.config" />
+    <None Include="Deployment\App.IE9.config" />
+    <None Include="Deployment\App.iOS7.0.config" />
+    <None Include="Deployment\App.iOS8.3.config" />
+    <None Include="Deployment\App.iOS9.1.config" />
+    <None Include="Deployment\App.OSXChrome.config" />
+    <None Include="Deployment\App.OSXFirefox.config" />
+    <None Include="Deployment\App.OSXSafari8.config" />
+    <None Include="Deployment\App.OSXSafari9.config" />
+    <None Include="Deployment\App.WinChrome.config" />
+    <None Include="Deployment\App.WinFirefox.config" />
+    <None Include="Deployment\App.config.install.xdt" />
+    <None Include="Deployment\App.config.uninstall.xdt" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -24,7 +24,6 @@
   <files>
     <file src="bin\Release\Sfa.SpecBind.Enhancements.dll" target="lib\net45" />
     <file src="bin\Release\Sfa.SpecBind.Enhancements.xml" target="lib\net45" />
-    <file src="Deployment\App.config.install.xdt" target="content" />
-    <file src="Deployment\App.config.uninstall.xdt" target="content" />
+    <file src="Deployment\*.*" target="content" />
   </files>
 </package>
