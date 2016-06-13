@@ -82,13 +82,13 @@ cache:
 #---------------------------------#
 #     deployment configuration    #
 #---------------------------------#
-deploy:
-  provider: NuGet
-  api_key:
-    secure: pFTcX0gBaJiP3nLZhvycW+DBzY2J3/UtOR1sB78NgzTsO3wMhS8ndBTs3DF60Idx
-  skip_symbols: true
-  symbol_server:           # remove to push symbols to SymbolSource.org
-  artifact: /.*\.nupkg/
+#deploy:
+#  provider: NuGet
+  #api_key:
+   # secure: pFTcX0gBaJiP3nLZhvycW+DBzY2J3/UtOR1sB78NgzTsO3wMhS8ndBTs3DF60Idx
+  #skip_symbols: true
+  #symbol_server:           # remove to push symbols to SymbolSource.org
+  #artifact: /.*\.nupkg/
 
 #---------------------------------#
 #  notifications configuration    #
