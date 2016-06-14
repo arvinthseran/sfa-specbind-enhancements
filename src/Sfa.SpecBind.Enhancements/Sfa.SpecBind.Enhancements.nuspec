@@ -29,6 +29,7 @@
 	<file src="..\..\scripts\AppendBrowserFactory.ps1" target="tools\AppendBrowserFactory.ps1" />
 	<file src="..\..\scripts\BrowserstackTestRun.ps1" target="tools\BrowserstackTestRun.ps1" />
 	<file src="..\..\scripts\ModifyBrowserFactory.ps1" target="tools\ModifyBrowserFactory.ps1" />
+	<file src="..\..\scripts\js-errors.js" target="tools\js-errors.js" />
 	<file src="..\ConfigTransformTool\bin\release\ConfigTransform.exe" target="tools\ConfigTransform.exe" />
 	<file src="..\ConfigTransformTool\bin\release\Microsoft.Web.XmlTransform.dll" target="tools\Microsoft.Web.XmlTransform.dll" />
   </files>
