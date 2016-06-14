@@ -7,7 +7,7 @@
     <authors>scottcowan</authors>
     <owners>scottcowan</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
-    <projectUrl>https://github.com/dpiessens/specbind</projectUrl>
+    <projectUrl>https://github.com/scottcowan/sfa-specbind-enhancements</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Adding better support for browserstack and catching javascript errors on pages</description>
     <summary>enhancements for specbind</summary>
