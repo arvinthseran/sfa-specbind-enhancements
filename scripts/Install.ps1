@@ -21,6 +21,6 @@ $debugConfigs = $project.ProjectItems | Where-Object { $_.Properties.Item("Filen
 $debugConfigs | ForEach-Object -process {
 	# Handle the update for MyConfig.Debug.config - set it as BuildAction = None
 	# and move it to be a dependency of MyConfig.config.
-	$debugConfig.Properties.Item("ItemType").Value = "None"
-	$baseConfig.ProjectItems.AddFromFile($debugConfig.Properties.Item("FullPath").Value)
+	$_.Properties.Item("ItemType").Value = "None"
+	$baseConfig.ProjectItems.AddFromFile($_.Properties.Item("FullPath").Value)
 }
