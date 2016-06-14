@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sfa.SpecBind.Enhancements", "Sfa.SpecBind.Enhancements\Sfa.SpecBind.Enhancements.csproj", "{2D50186E-54B7-4721-8AC1-73CDCF4D473E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C1988B5-92D2-49C0-A71A-E5E38BC3357E}"
+	ProjectSection(SolutionItems) = preProject
+		..\scripts\Install.ps1 = ..\scripts\Install.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigTransformTool", "ConfigTransformTool\ConfigTransformTool.csproj", "{FB2ED3F1-5C88-48E0-AC19-91255F5CA3DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{2D50186E-54B7-4721-8AC1-73CDCF4D473E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D50186E-54B7-4721-8AC1-73CDCF4D473E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D50186E-54B7-4721-8AC1-73CDCF4D473E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2ED3F1-5C88-48E0-AC19-91255F5CA3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2ED3F1-5C88-48E0-AC19-91255F5CA3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2ED3F1-5C88-48E0-AC19-91255F5CA3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2ED3F1-5C88-48E0-AC19-91255F5CA3DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
