@@ -59,7 +59,8 @@
             if (ScenarioContext.Current.TestError != null)
             {
                 var driver = this._objectContainer.Resolve<IBrowser>().Driver();
-                if(driver is RemoteWebDriver && !(driver is PhantomJSDriver))
+                var settings = SettingHelper.GetConfigurationSection().BrowserFactory.Settings;
+                if(driver is RemoteWebDriver && !(driver is PhantomJSDriver) && !string.IsNullOrEmpty(settings["browserstack.user"].Value) && !string.IsNullOrEmpty(settings["browserstack.key"].Value))
                 {
                     this._objectContainer.Resolve<IBrowserStackApi>().FailTestSession(ScenarioContext.Current.TestError);
                 }
