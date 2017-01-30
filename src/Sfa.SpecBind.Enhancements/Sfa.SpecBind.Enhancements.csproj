@@ -33,12 +33,12 @@
     <DocumentationFile>bin\Release\Sfa.SpecBind.Enhancements.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Polly, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Polly.4.3.0\lib\net45\Polly.dll</HintPath>
+    <Reference Include="Polly, Version=5.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Polly.5.0.3\lib\net45\Polly.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SpecBind, Version=1.7.0.265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SpecBind.1.7.0.265\lib\net45\SpecBind.dll</HintPath>
+    <Reference Include="SpecBind, Version=1.7.3.280, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecBind.1.7.3.280\lib\net45\SpecBind.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -55,8 +55,8 @@
       <HintPath>..\packages\SpecFlow.2.0.0\lib\net45\TechTalk.SpecFlow.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="WebDriver, Version=2.53.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.WebDriver.2.53.1\lib\net40\WebDriver.dll</HintPath>
+    <Reference Include="WebDriver, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.0.1\lib\net40\WebDriver.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

@@ -15,9 +15,9 @@
     <language>en-US</language>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="SpecBind" version="1.7.0" />
-		<dependency id="Selenium.WebDriver" version="2.53.0" />
-        <dependency id="Polly" version="4.2.0" />
+        <dependency id="SpecBind" version="1.7.3" />
+		<dependency id="Selenium.WebDriver" version="3.0.1" />
+        <dependency id="Polly" version="5.0.3" />
       </group>
     </dependencies>
   </metadata>
